@@ -11,4 +11,8 @@ def settings(request):
     return render(request, 'personal/Settings.html')
 
 def signup(request):
+    request.POST['username']
+    request.POST['password']
     return render(request, 'personal/signup.html')
+
+

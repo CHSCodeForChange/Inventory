@@ -1,7 +1,0 @@
-﻿{% extends "personal/navbar.html" %}
-
-{% block content %}
-	{% for user in object_list %}
-	<h5>{{ user.DateJoined|date:"Y-m-d" }}</h5>
-	{% endfor %}
-{% endblock %}

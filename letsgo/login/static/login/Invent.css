@@ -53,6 +53,12 @@ form button:hover {
 }
 .option-net {
   border: 1px solid black;
+  background-color:white;
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 5px;
 }
 .btn {
   background-color: blue;

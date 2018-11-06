@@ -13,6 +13,7 @@ form {
   padding: 10px;
   box-sizing: border-box;
   background-clip: padding-box;
+  display: block;
 }
 form input[type="text"] {
   width: 300px;
@@ -37,4 +38,16 @@ form input[type="password"] {
   border-bottom: 1px solid blue;
   border-radius: 5px;
   color: black;
+}
+form button {
+  color: white;
+  padding: 5px;
+  background-color: blue;
+  border: none;
+  border-radius: 3px;
+  display: block;
+  text-align: center;
+}
+form button:hover {
+  box-shadow: 5px 5px 5px gray;
 }

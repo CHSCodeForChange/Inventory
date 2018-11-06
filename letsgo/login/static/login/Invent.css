@@ -51,6 +51,9 @@ form button {
 form button:hover {
   box-shadow: 5px 5px 5px gray;
 }
+.option-net {
+  border: 1px solid black;
+}
 .btn {
   background-color: blue;
   border: none;

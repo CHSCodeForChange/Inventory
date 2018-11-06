@@ -5,3 +5,36 @@
 body {
   background-color: #f1f1f1;
 }
+form {
+  width: 500px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-clip: padding-box;
+}
+form input[type="text"] {
+  width: 300px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px;
+  text-align: right;
+  margin-left: 5px;
+  border: none;
+  border-bottom: 1px solid blue;
+  border-radius: 5px;
+  color: black;
+}
+form input[type="password"] {
+  width: 300px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px;
+  text-align: right;
+  margin-left: 5px;
+  border: none;
+  border-bottom: 1px solid blue;
+  border-radius: 5px;
+  color: black;
+}

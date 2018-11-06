@@ -51,3 +51,11 @@ form button {
 form button:hover {
   box-shadow: 5px 5px 5px gray;
 }
+.btn {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  display: block;
+}

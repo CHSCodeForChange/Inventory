@@ -1,18 +1,30 @@
 <html>
-<h1>You have sucessfully logged in to your inventory!</h1>
-<p> Choose from the options belows</p>
-<ul>
+  <head>
+    <title>Home Page</title>
+    {% load static %}
+    <link href="{% static 'login/Invent.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="net">
+      <center>
+  <h1>You have sucessfully logged in to your inventory!</h1>
+  <p> Choose from the options below:</p>
+  <ul>
+    <div class="container">
+    <img src="Desktop/books.png">
+    <button class="btn">Log Books</button>
+  </div>
+  <div class="container">
+    <img src="Desktop/books.png">
+    <button class="btn">Log student's inactivity</button>
+  </div>
   <div class="container">
   <img src="Desktop/books.png">
-  <button class="btn">Log Books</button>
-</div>
-<div class="container">
-  <img src="Desktop/books.png">
-  <button class="btn">Log student's inactivity</button>
-</div>
-<div class="container">
-<img src="Desktop/books.png">
-<button class="btn">Log Attendence</button>
-</div>
-</ul>
+  <button class="btn">Log Attendence</button>
+  </div>
+    </ul>
+        
+      </center>
+    </div>
+  </body>
 </html>

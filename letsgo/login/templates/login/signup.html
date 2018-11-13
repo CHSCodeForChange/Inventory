@@ -10,13 +10,17 @@
       <h2>Welcome to the Inventory Project!</h2>
       <nav>
         <ul>
-          <li> <a href="About">About</a></li>
+          <li> <a href="/About">About</a></li>
           <li> <a href="Support">Support</a></li>
         </ul>
       </nav>
     </header>
     <center>
-      <h1> Sign Up!</h1>
+      <form method='post'>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Sign up</button>
+      </form>
     </center>
   </div>
   </body>

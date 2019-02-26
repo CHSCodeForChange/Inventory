@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Login</title>
+    {% load static %}
+    <link href="{% static 'login/Invent.css' %}" rel="stylesheet" />
+  </head>
+<body>
+  <div class="net">
+<h1>Club-Inventory - A Product Of CFC&copy;</h1>
+<h2>Login:</h2>
+<form method="post">
+{% csrf_token %}
+{{ form.as_p}}
+<button type = "submit">Press here to log in</button>
+</form>
+<a href="/signup/">
+  <button>Press here to sign up</button>
+</a>
+  </div>
+  </body>
+</html>

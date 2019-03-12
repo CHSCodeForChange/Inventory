@@ -4,13 +4,26 @@
     {% load static %}
     <link href="{% static 'login/Invent.css' %}" rel="stylesheet" />
   </head>
+  <style>
+  input {
+    text-align: left !important;
+  }
+  </style>
 <body>
   <div class="net">
 <h1>Club-Inventory - A Product Of CFC&copy;</h1>
 <h2>Login:</h2>
 <form method="post">
 {% csrf_token %}
-{{ form.as_p}}
+<div class="container">
+   <div class="row">
+   {% for field in form  %}
+     <div class="col-sm-6">
+       <b>{{ field.label_tag }}</b> - {{ field }}
+     </div>
+   {% endfor %}
+   </div>
+ </div>
 <button type = "submit">Press here to log in</button>
 </form>
 <a href="/signup/">

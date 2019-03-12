@@ -9,6 +9,8 @@ def index(request):
 
 def about(request):
     return render(request, 'login/About.html')
+def support(request):
+    return render(request,'login/Support.html')
 
 def signup(request):
     if request.method == 'POST':
